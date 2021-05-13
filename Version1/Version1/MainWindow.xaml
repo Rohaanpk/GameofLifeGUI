@@ -1,0 +1,28 @@
+﻿<Window x:Class="Version1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Version1"
+        mc:Ignorable="d"
+        Title="Game of Life" 
+        Height="900" Width="900" 
+        FontFamily="Helvetica" FontSize="16"
+        UseLayoutRounding="True" 
+        WindowStartupLocation="CenterScreen"
+        Padding="1"
+        ResizeMode="NoResize">
+    <Grid Name="MainGrid" ShowGridLines="False" UseLayoutRounding="True" ClipToBounds="True">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+        </Grid.ColumnDefinitions>
+
+        <Button x:Name="autoGenerator" Grid.Column="0" Grid.Row="0" Click="auto" BorderBrush="Black" Margin="10,10,10,1" Height="50">Start</Button>
+        <Button x:Name="Reset" Grid.Column="0" Grid.Row="1" Click="reset" BorderBrush="Black" Margin="10,1,10,1">Reset</Button>
+        <Button x:Name="generator" Grid.Column="0" Grid.Row="2" Click="generation" BorderBrush="Black" Margin="10,1,10,1">Generate Once</Button>
+        <Button x:Name="exitButton" Grid.Column="0" Grid.Row="3" Click="closeWindow" BorderBrush="Black" Margin="10,1,10,1">Exit</Button>
+    </Grid>
+</Window>

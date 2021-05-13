@@ -1,0 +1,39 @@
+﻿<Window x:Class="Version4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Version4"
+        mc:Ignorable="d"
+        Title="Game of Life" 
+        Height="900" Width="900" 
+        FontFamily="Helvetica" FontSize="16"
+        UseLayoutRounding="True" 
+        WindowStartupLocation="CenterScreen"
+        Padding="1"
+        ResizeMode="NoResize">
+    <Grid Name="MainGrid" ShowGridLines="False" UseLayoutRounding="True" ClipToBounds="True">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+        </Grid.ColumnDefinitions>
+
+        <Label x:Name="Generations" Content="" Width="auto" Padding="5" Height="30" Margin="314,6,-349,59"/>
+        <Label x:Name="AliveCells" Content="" Width="Auto" Padding="5" Height="30" Margin="314,38,-349,28"/>
+        <Label x:Name="Delay"  RenderTransformOrigin="100,0" Content="Delay:" HorizontalAlignment="Center"  VerticalAlignment="Top" Height="30" Width="150" Margin="0,13,0,0"/>
+        <Label x:Name="MS" Content="(ms)" Width="40" Height="30" Margin="92,10,20,43"/>
+
+        <Button x:Name="autoGenerator"  Click="auto" Height="50" BorderBrush="Black" Margin="173,10,-161,33">Start</Button>
+
+        <Slider x:Name="SpeedSlider" Minimum="1" IsSnapToTickEnabled="True" TickFrequency="1" Maximum="500" Margin="0,48,12,23" Value="200"/>
+        <TextBox x:Name="SpeedInt" MaxLength="3" TextAlignment="Center" VerticalContentAlignment="Center" Height="30" Margin="56,10,61,43" Text="{Binding ElementName=SpeedSlider, Mode=TwoWay, Path=Value, UpdateSourceTrigger=PropertyChanged}"/>
+
+        <Button x:Name="generator" Grid.Column="0" Height="50" Click="generation" BorderBrush="Black" Padding="10" Margin="0,68,12,-42">Generate Once</Button>
+        <Button x:Name="Reset"  Click="reset" Height="50" BorderBrush="Black" Padding="10" Margin="0,118,12,-92">Reset</Button>
+        <Button x:Name="saveButton"  Click="savegrid" Height="50" BorderBrush="Black" Padding="10" Margin="0,168,12,-142">Save</Button>
+        <Button x:Name="loadingButton"  Click="load" Height="50" BorderBrush="Black" Padding="10" Margin="0,218,12,-192">Load</Button>
+        <Button x:Name="exitButton"  Click="closeWindow" BorderBrush="Black" Padding="10" Height="50" Margin="0,268,12,-242">Exit</Button>
+    </Grid>
+</Window>

@@ -1,0 +1,25 @@
+C:\Users\OEM\source\repos\Final Version\Final Version\bin\Debug\netcoreapp3.1\Final Version.exe
+C:\Users\OEM\source\repos\Final Version\Final Version\bin\Debug\netcoreapp3.1\Final Version.deps.json
+C:\Users\OEM\source\repos\Final Version\Final Version\bin\Debug\netcoreapp3.1\Final Version.runtimeconfig.json
+C:\Users\OEM\source\repos\Final Version\Final Version\bin\Debug\netcoreapp3.1\Final Version.runtimeconfig.dev.json
+C:\Users\OEM\source\repos\Final Version\Final Version\bin\Debug\netcoreapp3.1\Final Version.dll
+C:\Users\OEM\source\repos\Final Version\Final Version\bin\Debug\netcoreapp3.1\Final Version.pdb
+C:\Users\OEM\source\repos\Final Version\Final Version\obj\Debug\netcoreapp3.1\Final Version.csprojAssemblyReference.cache
+C:\Users\OEM\source\repos\Final Version\Final Version\obj\Debug\netcoreapp3.1\Griddef.g.cs
+C:\Users\OEM\source\repos\Final Version\Final Version\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\OEM\source\repos\Final Version\Final Version\obj\Debug\netcoreapp3.1\Opening.g.cs
+C:\Users\OEM\source\repos\Final Version\Final Version\obj\Debug\netcoreapp3.1\Rules.g.cs
+C:\Users\OEM\source\repos\Final Version\Final Version\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\OEM\source\repos\Final Version\Final Version\obj\Debug\netcoreapp3.1\Final Version_MarkupCompile.cache
+C:\Users\OEM\source\repos\Final Version\Final Version\obj\Debug\netcoreapp3.1\Griddef.baml
+C:\Users\OEM\source\repos\Final Version\Final Version\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\OEM\source\repos\Final Version\Final Version\obj\Debug\netcoreapp3.1\Opening.baml
+C:\Users\OEM\source\repos\Final Version\Final Version\obj\Debug\netcoreapp3.1\Rules.baml
+C:\Users\OEM\source\repos\Final Version\Final Version\obj\Debug\netcoreapp3.1\Final Version.g.resources
+C:\Users\OEM\source\repos\Final Version\Final Version\obj\Debug\netcoreapp3.1\Final Version.AssemblyInfoInputs.cache
+C:\Users\OEM\source\repos\Final Version\Final Version\obj\Debug\netcoreapp3.1\Final Version.AssemblyInfo.cs
+C:\Users\OEM\source\repos\Final Version\Final Version\obj\Debug\netcoreapp3.1\Final Version.csproj.CoreCompileInputs.cache
+C:\Users\OEM\source\repos\Final Version\Final Version\obj\Debug\netcoreapp3.1\Final Version.dll
+C:\Users\OEM\source\repos\Final Version\Final Version\obj\Debug\netcoreapp3.1\Final Version.pdb
+C:\Users\OEM\source\repos\Final Version\Final Version\obj\Debug\netcoreapp3.1\Final Version.genruntimeconfig.cache
+C:\Users\OEM\source\repos\Final Version\Final Version\obj\Debug\netcoreapp3.1\Final Version_MarkupCompile.lref
