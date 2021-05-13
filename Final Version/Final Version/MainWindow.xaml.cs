@@ -22,11 +22,7 @@ using System.Diagnostics;
 namespace Final_Version
 {
     public partial class MainWindow : Window
-
-
-    {
-
-
+    { 
         // Grid Height and Width (Number of cells)
         public int column = 20;
         public int row = 20;
@@ -45,9 +41,13 @@ namespace Final_Version
         public int rowi;
         public int columni;
 
+        // Sets csv folder directory
         public string curDir = Directory.GetCurrentDirectory();
 
+        // Sets bool val to false, var is used in the autogeneration function
+        public static bool val = false;
 
+        //Main Window Code Block
         public MainWindow(int row, int column)
         { 
             this.Height = (System.Windows.SystemParameters.PrimaryScreenHeight * 0.8);
@@ -278,19 +278,6 @@ namespace Final_Version
             }
         }
 
-        
-        // Save grid Layout function
-        private void Savegrid(object sender, RoutedEventArgs e)
-        {
-            string message = "Grid Saving (Grid is saved to the current directory of the .exe)";
-            string title = "Saving...";
-            MessageBox.Show(message, title);
-            var curDir = Directory.GetCurrentDirectory();
-            File.WriteAllLines($"{curDir}/data.csv",
-                ToCsv(grid));
-
-        }
-
         // Borrowed from stack overflow function (writes to csv)
         public static IEnumerable<String> ToCsv<T>(T[,] data, string separator = ",")
         {
@@ -320,7 +307,6 @@ namespace Final_Version
                 throw new InvalidOperationException("The given jagged array is not rectangular.");
             }
         }
-
 
         //Randomise Grid Function
         public void Randomise(object sender, RoutedEventArgs e)
@@ -392,9 +378,8 @@ namespace Final_Version
             string exitMessage = "Application is closing, please press OK.";
             string exitTitle = "Application Closing";
             MessageBox.Show(exitMessage, exitTitle);
-            this.Close();
+            this.Close();   
         }
-
 
         // CSV Loader function
         public void Loader(object sender, RoutedEventArgs e, string filePath)
@@ -561,8 +546,6 @@ namespace Final_Version
                 }
             }
         }
-
-        public static bool val = false;
 
     }
 

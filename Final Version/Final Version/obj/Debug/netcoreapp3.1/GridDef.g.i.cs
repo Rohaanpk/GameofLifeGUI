@@ -69,7 +69,7 @@ namespace Final_Version {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Final Version;component/griddef.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Final Version;V1.0.0.0;component/griddef.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Griddef.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

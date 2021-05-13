@@ -53,7 +53,7 @@ namespace Final_Version {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Final Version;component/opening.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Final Version;V1.0.0.0;component/opening.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Opening.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
